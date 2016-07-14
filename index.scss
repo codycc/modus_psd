@@ -172,8 +172,24 @@ body {
 }
 
 .footer {
+  color:white;
   background-color: #76C7C1;
-  p,a {
+  ul {
+    margin:0px;
+    padding:5px;
+    list-style-type:none;
+  }
+  h4 {
+    color:#336267;
+  }
+  a{
     color:white;
   }
+}
+
+.footer2 {
+  background-color:#6AB3AC;
+  height:50px;
+  padding-top:10px;
+  color:white;
 }
