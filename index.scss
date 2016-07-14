@@ -1,0 +1,22 @@
+$lightblue: #76C7C1;
+
+
+
+.navbar-default {
+  background-color: $lightblue;
+
+  h4 {
+    color:white;
+    padding:0px;
+    margin:0px;
+  }
+
+  ul {
+    list-style-type:none;
+
+  }
+
+  li {
+    display:inline;
+  }
+}
