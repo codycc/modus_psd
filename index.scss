@@ -122,10 +122,58 @@ body {
   background-color:#ECECEC;
   text-align:center;
   padding:30px 0px;
+  height:350px;
+  h1 {
+    color:$pink;
+  }
   img {
-    width: 70%;
+    max-width: 80%;
+    display:block;
+    margin:0 auto;
     height: auto;
     position:relative;
-    top:140px;
+
+  }
+}
+
+.stats {
+  padding-top:130px;
+  p {
+    font-size:10px;
+  }
+
+  img {
+    width:480px;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+  }
+  .panel-transparent {
+    border:none;
+    background:none;
+  }
+
+  ul {
+    padding: 0px 9px;
+    p{
+      margin:0px;
+
+    }
+  }
+}
+
+.sponsors {
+  img {
+    width: 50%;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+  }
+}
+
+.footer {
+  background-color: #76C7C1;
+  p,a {
+    color:white;
   }
 }
