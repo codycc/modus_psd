@@ -1,6 +1,10 @@
 $lightblue: #76C7C1;
 $greyblue: #5DA29C;
 $pink: #E44D43;
+
+body {
+  background-color:#F4F4F4;
+}
 .navbar {
   background-color: $lightblue;
   height:60px;
@@ -54,3 +58,9 @@ $pink: #E44D43;
     margin-top:3px;
   }
 }
+
+.panel-body {
+    padding:3px 15px;
+    background-color:#ECECEC;
+
+  }

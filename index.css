@@ -1,3 +1,6 @@
+body {
+  background-color: #F4F4F4; }
+
 .navbar {
   background-color: #76C7C1;
   height: 60px;
@@ -39,5 +42,9 @@
     font-size: 15px;
     padding: 9px 20px;
     margin-top: 3px; }
+
+.panel-body {
+  padding: 3px 15px;
+  background-color: #ECECEC; }
 
 /*# sourceMappingURL=index.css.map */
