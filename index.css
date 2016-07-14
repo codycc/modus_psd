@@ -20,8 +20,24 @@
   text-align: center;
   background: url("newyork.jpg") no-repeat center center;
   background-size: cover;
-  height: 400px; }
+  height: 400px;
+  padding-top: 140px; }
   .jumbotron #feature {
-    font-size: 35px; }
+    font-size: 35px;
+    color: white;
+    background-color: #E44D43;
+    font-weight: bolder;
+    padding: 0px 8px;
+    text-decoration: none;
+    letter-spacing: 1px; }
+  .jumbotron #supporting {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 9px 20px;
+    margin-top: 3px; }
 
 /*# sourceMappingURL=index.css.map */
