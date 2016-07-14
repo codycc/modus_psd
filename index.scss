@@ -1,22 +1,36 @@
 $lightblue: #76C7C1;
-
-
-
-.navbar-default {
+$greyblue: #5DA29C;
+.navbar {
   background-color: $lightblue;
-
-  h4 {
+  height:60px;
+  padding-top:4px;
+  margin-bottom:0px;
+  .navbar-header a{
     color:white;
-    padding:0px;
-    margin:0px;
   }
-
-  ul {
-    list-style-type:none;
-
+  .navbar-brand {
+    letter-spacing:1px;
   }
+}
 
-  li {
-    display:inline;
+.nav.navbar-nav.navbar-right li a, {
+    color: white;
+    padding:9px 10px;
+    margin: 5px 12px;;
+    &:hover {
+      background-color: $greyblue;
+      border-radius:5px;
+
+    }
+}
+
+.jumbotron {
+  text-align:center;
+  background:url('newyork.jpg') no-repeat center center;
+  background-size:cover;
+  height:400px;
+
+  #feature {
+    font-size:35px;
   }
 }

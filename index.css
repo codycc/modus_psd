@@ -1,12 +1,27 @@
-.navbar-default {
-  background-color: #76C7C1; }
-  .navbar-default h4 {
-    color: white;
-    padding: 0px;
-    margin: 0px; }
-  .navbar-default ul {
-    list-style-type: none; }
-  .navbar-default li {
-    display: inline; }
+.navbar {
+  background-color: #76C7C1;
+  height: 60px;
+  padding-top: 4px;
+  margin-bottom: 0px; }
+  .navbar .navbar-header a {
+    color: white; }
+  .navbar .navbar-brand {
+    letter-spacing: 1px; }
+
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+  padding: 9px 10px;
+  margin: 5px 12px; }
+  .nav.navbar-nav.navbar-right li a:hover {
+    background-color: #5DA29C;
+    border-radius: 5px; }
+
+.jumbotron {
+  text-align: center;
+  background: url("newyork.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px; }
+  .jumbotron #feature {
+    font-size: 35px; }
 
 /*# sourceMappingURL=index.css.map */
