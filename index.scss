@@ -3,6 +3,7 @@ $greyblue: #5DA29C;
 $pink: #E76558;
 $darkpink:#E05444;
 $fontgrey: #B1BCB8;
+$darkgrey: #8B9491;
 body {
   background-color:#F4F4F4;
 }
@@ -73,6 +74,7 @@ body {
    font-size:26px;
    color: $fontgrey;
  }
+
  a {
    background-color: $pink;
    color:white;
@@ -81,17 +83,49 @@ body {
    border-radius:5px;
    text-decoration:none;
    &:hover {
-     background-color: $darkpink;
+     background-color: $lightblue;
    }
  }
 }
 
 .service-panels {
-
+  text-align:center;
+  .service-panel {
+    margin-bottom:40px;
+  }
   img {
     height:60px;
     display:block;
       margin: 0 auto;
+  }
+  h5 {
+    font-weight:bold;
+    color:$darkgrey;
+  }
+  a {
+    background-color: $pink;
+    color:white;
+    padding: 13px 35px;
+    display:inline;
+    border-radius:5px;
+    text-decoration:none;
+    position:relative;
+    top:25px;
+    font-size:13px;
+    &:hover {
+      background-color: $lightblue;
+    }
+  }
+}
 
+.section3 {
+  background-color:#ECECEC;
+  text-align:center;
+  padding:30px 0px;
+  img {
+    width: 70%;
+    height: auto;
+    position:relative;
+    top:140px;
   }
 }
