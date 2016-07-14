@@ -21,14 +21,14 @@ body {
 
 .jumbotron {
   text-align: center;
-  background: url("newyork.jpg") no-repeat center center;
+  background: url("photos/newyork.jpg") no-repeat center center;
   background-size: cover;
   height: 400px;
   padding-top: 140px; }
   .jumbotron #feature {
     font-size: 35px;
     color: white;
-    background-color: #E44D43;
+    background-color: #E76558;
     font-weight: bolder;
     padding: 0px 8px;
     text-decoration: none;
@@ -43,8 +43,29 @@ body {
     padding: 9px 20px;
     margin-top: 3px; }
 
-.panel-body {
-  padding: 3px 15px;
+.service-info {
+  padding: 5px 25px;
   background-color: #ECECEC; }
+  .service-info .col-md-3 {
+    height: 80px;
+    text-align: right;
+    padding-top: 30px; }
+  .service-info h4 {
+    font-size: 26px;
+    color: #B1BCB8; }
+  .service-info a {
+    background-color: #E76558;
+    color: white;
+    padding: 13px 35px;
+    display: inline;
+    border-radius: 5px;
+    text-decoration: none; }
+    .service-info a:hover {
+      background-color: #E05444; }
+
+.service-panels img {
+  height: 60px;
+  display: block;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=index.css.map */

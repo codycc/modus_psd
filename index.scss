@@ -1,10 +1,12 @@
 $lightblue: #76C7C1;
 $greyblue: #5DA29C;
-$pink: #E44D43;
-
+$pink: #E76558;
+$darkpink:#E05444;
+$fontgrey: #B1BCB8;
 body {
   background-color:#F4F4F4;
 }
+
 .navbar {
   background-color: $lightblue;
   height:60px;
@@ -31,7 +33,7 @@ body {
 
 .jumbotron {
   text-align:center;
-  background:url('newyork.jpg') no-repeat center center;
+  background:url('photos/newyork.jpg') no-repeat center center;
   background-size:cover;
   height:400px;
   padding-top:140px;
@@ -59,8 +61,37 @@ body {
   }
 }
 
-.panel-body {
-    padding:3px 15px;
-    background-color:#ECECEC;
+.service-info {
+  padding:5px 25px;
+  background-color: #ECECEC;
+  .col-md-3 {
+    height:80px;
+    text-align:right;
+    padding-top:30px;
+  }
+ h4 {
+   font-size:26px;
+   color: $fontgrey;
+ }
+ a {
+   background-color: $pink;
+   color:white;
+   padding: 13px 35px;
+   display:inline;
+   border-radius:5px;
+   text-decoration:none;
+   &:hover {
+     background-color: $darkpink;
+   }
+ }
+}
+
+.service-panels {
+
+  img {
+    height:60px;
+    display:block;
+      margin: 0 auto;
 
   }
+}
